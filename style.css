@@ -1,0 +1,51 @@
+/* Write your CSS code here */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family:'poppins', sans-serif;
+    text-align: center;
+    
+}
+main{
+    background: linear-gradient(135deg, #a855f7,#ec4899);
+    padding: 1rem;
+    min-height: 100vh;
+    color: #fff;
+    position: relative;
+    padding-top: 5rem;
+    overflow: hidden;
+
+}
+main::after, main::before{    
+    border-radius: 50%;
+    position: absolute;
+    content: '';
+    height: 300px;
+    width: 300px;
+}
+main::before{
+    background: linear-gradient(90deg, transparent, #ec4899);
+    top:-50px;
+    right:-150px;
+}
+main::after{
+    background: linear-gradient(180deg, transparent, #ec4899);
+    bottom: -100px;
+    left: -50px;
+}
+
+h1{
+    margin: 0;
+    font-size: 10rem;
+}
+a{
+    color: #fff;
+}
+.centered-text{
+    margin: 0 auto;
+    width: 300px;
+    padding-bottom: 2rem;
+    
+}
